@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background:#020611;
+}
+
+canvas{
+    display:block;
+}
+
+#news-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 400px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+#news-container > div {
+    background: rgba(10, 20, 40, 0.9);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+
+#news-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#news-container h2 {
+    margin: 12px 0;
+}
+
+#news-container p {
+    margin: 8px 0;
+}
+
+#news-container a {
+    display: inline-block;
+    margin-top: 10px;
+}
